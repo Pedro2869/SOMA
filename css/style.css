@@ -39,3 +39,16 @@ body {
 div#res {
     margin-top: 20px;
 }
+
+@media (min-height: 320px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
